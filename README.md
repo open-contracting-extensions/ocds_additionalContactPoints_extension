@@ -2,9 +2,9 @@
 
 There are some cases where it is important to list multiple contact points for an organization, particularly in cases where each contact point may deal with enquiries in particular languages only.
 
-This extension adds an array of ```additionalContactPoints``` to the ```organization``` object, and introduces an ```availableLanguage``` array of language codes to ```ContactPoint```.
+This extension adds an array of `additionalContactPoints` to the `organization` object, and introduces an `availableLanguage` array of language codes to `ContactPoint`.
 
-When this extension is used, publishers should always include a **primary contact point** for the ```contactPoint``` property, on the basis that many applications will not be aware of the ```additionalContactPoints``` array.
+When this extension is used, publishers should always include a **primary contact point** for the `contactPoint` property, on the basis that many applications will not be aware of the `additionalContactPoints` array.
 
 ## Example
 
