@@ -5,10 +5,10 @@
   "description": {
     "en": "For including extra contact points on each organization. Particularly used when each contact point deals only in a particular language or group of languages."
   },
-  "compatibility": [
-    "1.1"
-  ],
   "documentationUrl": {
     "en": "https://github.com/open-contracting/ocds_additionalContactPoints_extension"
-  }
+  },
+  "compatibility": [
+    "1.1"
+  ]
 }
