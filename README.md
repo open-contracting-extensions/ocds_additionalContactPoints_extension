@@ -1,4 +1,4 @@
-# Additional Contact Points
+# Additional Contact Points and Contact Point Languages
 
 There are some cases where it is important to list multiple contact points for an organization, particularly in cases where each contact point may deal with enquiries in particular languages only.
 
@@ -45,6 +45,10 @@ The example below shows a procuring entity with two contact points. A primarily 
     }]
 }
 ```
+
+## Modeling notes
+
+`availableLanguage` is singular, although it is an array, to align with [Schema.org](https://schema.org/availableLanguage).
 
 ## Issues
 

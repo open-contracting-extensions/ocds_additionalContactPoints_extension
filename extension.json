@@ -3,7 +3,7 @@
     "en": "Additional Contact Points"
   },
   "description": {
-    "en": "For including extra contact points on each organization. Particularly used when each contact point deals only in a particular language or group of languages."
+    "en": "For providing multiple contact points for an organization, or for providing the available languages of a contact point. For example, it may be used to provide a contact point for each language."
   },
   "documentationUrl": {
     "en": "https://github.com/open-contracting/ocds_additionalContactPoints_extension"
