@@ -5,10 +5,7 @@
         "additionalContactPoints": {
           "title": "Additional contact points",
           "description": "An array of additional contact points that may be consulted for information. Additional contact points should each list the languages they operate in their name, and as structured data in the availableLanguage field.",
-          "type": [
-            "array",
-            "null"
-          ],
+          "type": "array",
           "items": {
             "$ref": "#/definitions/ContactPoint"
           },
