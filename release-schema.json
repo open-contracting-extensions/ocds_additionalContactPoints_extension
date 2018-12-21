@@ -3,31 +3,30 @@
     "Organization": {
       "properties": {
         "additionalContactPoints": {
-          "title": "Additional Contact Points",
-          "description": "An array of additional contact points that may be consulted for information. Additional contact points should each list the languages they operate in their name, and as structured data in the availableLanguage field. ",
+          "title": "Additional contact points",
+          "description": "An array of additional contact points that may be consulted for information. Additional contact points should each list the languages they operate in their name, and as structured data in the availableLanguage field.",
           "type": [
             "array",
             "null"
           ],
           "items": {
             "$ref": "#/definitions/ContactPoint"
-          }
+          },
+          "wholeListMerge": true
         }
       }
     },
     "ContactPoint": {
       "properties": {
         "availableLanguage": {
-          "title": "Available Language(s)",
+          "title": "Available languages",
+          "description": "The languages the contact point operates in, using either two-letter [ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), or extended [BCP47 language tags](http://www.w3.org/International/articles/language-tags/). The use of lowercase two-letter codes from [ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) is strongly recommended unless there is a clear user need for distinguishing the language subtype.",
           "type": [
             "array",
             "null"
           ],
-          "description": "An array of language codes (e.g. en, es, uk)",
           "items": {
-            "type": "string",
-            "title": "Language code",
-            "description": "ISO language code"
+            "type": "string"
           }
         }
       }

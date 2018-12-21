@@ -53,3 +53,10 @@ The example below shows a procuring entity with two contact points. A primarily 
 ## Issues
 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
+
+## Changelog
+
+### 2018-12-21
+
+* Set `wholeListMerge` on `Organization.additionalContactPoints`
+* Clarify use of language codes on `ContactPoint.availableLanguage`
