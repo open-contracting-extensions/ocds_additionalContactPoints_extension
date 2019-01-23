@@ -6,7 +6,7 @@
     "en": "For providing multiple contact points for an organization, or for providing the available languages of a contact point. For example, it may be used to provide a contact point for each language."
   },
   "documentationUrl": {
-    "en": "https://github.com/open-contracting/ocds_additionalContactPoints_extension"
+    "en": "https://extensions.open-contracting.org/en/extensions/additionalContactPoint/"
   },
   "compatibility": [
     "1.1"
