@@ -46,7 +46,7 @@ The example below shows a procuring entity with two contact points. A primarily 
 }
 ```
 
-## Modeling notes
+## Modelling notes
 
 `availableLanguage` is singular, although it is an array, to align with [Schema.org](https://schema.org/availableLanguage).
 
