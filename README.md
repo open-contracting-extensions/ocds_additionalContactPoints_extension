@@ -56,6 +56,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2019-03-20
+
+* Set `"uniqueItems": true` on array fields.
+
 ### 2018-12-21
 
 * Set `wholeListMerge` on `Organization.additionalContactPoints`
