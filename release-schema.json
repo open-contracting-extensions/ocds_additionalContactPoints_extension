@@ -9,7 +9,8 @@
           "items": {
             "$ref": "#/definitions/ContactPoint"
           },
-          "wholeListMerge": true
+          "wholeListMerge": true,
+          "uniqueItems": true
         }
       }
     },
@@ -24,7 +25,8 @@
           ],
           "items": {
             "type": "string"
-          }
+          },
+          "uniqueItems": true
         }
       }
     }
