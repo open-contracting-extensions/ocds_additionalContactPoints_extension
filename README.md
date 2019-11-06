@@ -12,37 +12,47 @@ The example below shows a procuring entity with two contact points. A primarily 
 
 ```json
 {
-  "parties":[{
-            "id":"GB-LAC-E09000003",
-            "role":["procuringEntity"],
-            "identifier": {
-                "scheme": "GB-LAC",
-                "id": "E09000003",
-                "legalName": "AnyTown Council"
-            },
-            "name": "AnyTown Council",
-            "address": {
-                "streetAddress": "4, North London Business Park, Oakleigh Rd S",
-                "locality": "London",
-                "region": "London",
-                "postalCode": "N11 1NP",
-                "countryName": "United Kingdom"
-            },
-            "contactPoint": {
-                "name": "Procurement Team",
-                "email": "procurement-team@example.com",
-                "telephone": "01234 345 346",
-                "availableLanguage":["en"]
-            },
-            "additionalContactPoints":[
-              {
-                "name": "Procurement Team (International Enquiries)",
-                "email": "procurement-team-international@example.com",
-                "telephone": "01234 345 346 Extension 123",
-                "availableLanguage":["es","fr","de"]
-              }
-            ]
-    }]
+  "parties": [
+    {
+      "id": "GB-LAC-E09000003",
+      "role": [
+        "procuringEntity"
+      ],
+      "identifier": {
+        "scheme": "GB-LAC",
+        "id": "E09000003",
+        "legalName": "AnyTown Council"
+      },
+      "name": "AnyTown Council",
+      "address": {
+        "streetAddress": "4, North London Business Park, Oakleigh Rd S",
+        "locality": "London",
+        "region": "London",
+        "postalCode": "N11 1NP",
+        "countryName": "United Kingdom"
+      },
+      "contactPoint": {
+        "name": "Procurement Team",
+        "email": "procurement-team@example.com",
+        "telephone": "01234 345 346",
+        "availableLanguage": [
+          "en"
+        ]
+      },
+      "additionalContactPoints": [
+        {
+          "name": "Procurement Team (International Enquiries)",
+          "email": "procurement-team-international@example.com",
+          "telephone": "01234 345 346 Extension 123",
+          "availableLanguage": [
+            "es",
+            "fr",
+            "de"
+          ]
+        }
+      ]
+    }
+  ]
 }
 ```
 
