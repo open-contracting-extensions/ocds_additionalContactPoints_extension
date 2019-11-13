@@ -15,7 +15,7 @@ The example below shows a procuring entity with two contact points. A primarily 
   "parties": [
     {
       "id": "GB-LAC-E09000003",
-      "role": [
+      "roles": [
         "procuringEntity"
       ],
       "identifier": {
