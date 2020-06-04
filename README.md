@@ -1,10 +1,10 @@
 # Additional Contact Points and Contact Point Languages
 
-There are some cases where it is important to list multiple contact points for an organization, particularly in cases where each contact point may deal with enquiries in particular languages only.
+There are some cases where it is important to list multiple contact points for an organization, particularly in cases where each contact point deals with enquiries in particular languages only.
 
 This extension adds an array of `additionalContactPoints` to the `Organization` object, and introduces an `availableLanguage` array of language codes to `ContactPoint`.
 
-When this extension is used, publishers should always include a **primary contact point** for the `contactPoint` property, on the basis that many applications will not be aware of the `additionalContactPoints` array. However, if a primary contact point can't be determined, all contact points can be disclosed in the `additionalContactPoints` array.
+When this extension is used, publishers should include a **primary contact point** for the `contactPoint` property, on the basis that many applications will not be aware of the `additionalContactPoints` array. However, if a primary contact point can't be determined, all contact points may be disclosed in the `additionalContactPoints` array.
 
 ## Example
 
@@ -65,6 +65,10 @@ The example below shows a procuring entity with two contact points. A primarily 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2020-06-04
+
+* Review normative and non-normative words
 
 ### 2020-04-24
 
