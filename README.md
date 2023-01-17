@@ -8,8 +8,6 @@ When this extension is used, publishers should include a **primary contact point
 
 ## Example
 
-The example below shows a procuring entity with two contact points. A primarily contact
-
 ```json
 {
   "parties": [
