@@ -34,7 +34,7 @@
         "address": {
           "title": "Address",
           "description": "An additional contact address. This may be the legally registered address of the organization, or may be a correspondence address for this particular contracting process.",
-          "$ref": "#definitions/Address"
+          "$ref": "#/definitions/Address"
         }
       }
     }
