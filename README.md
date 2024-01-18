@@ -73,7 +73,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2023-12-19
 
-* Add `address` property.
+* Add `ContactPoint.address` field.
 
 ### 2020-06-04
 
