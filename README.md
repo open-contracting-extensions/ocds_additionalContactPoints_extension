@@ -46,7 +46,14 @@ When this extension is used, publishers should include a **primary contact point
             "es",
             "fr",
             "de"
-          ]
+          ],
+          "address": {
+            "streetAddress": "5, North London Business Park, Oakleigh Rd S",
+            "locality": "London",
+            "region": "London",
+            "postalCode": "N11 1NP",
+            "countryName": "United Kingdom"
+          }
         }
       ]
     }
@@ -63,6 +70,10 @@ When this extension is used, publishers should include a **primary contact point
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2023-12-19
+
+* Add `ContactPoint.address` field.
 
 ### 2020-06-04
 

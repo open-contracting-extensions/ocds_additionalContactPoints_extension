@@ -30,6 +30,11 @@
           },
           "uniqueItems": true,
           "minItems": 1
+        },
+        "address": {
+          "title": "Address",
+          "description": "The address of the contact point.",
+          "$ref": "#/definitions/Address"
         }
       }
     }
